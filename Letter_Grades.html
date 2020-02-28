@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html len="en">
+<head>
+<meta charset="utf-8">
+    <title> Grades </title>
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>
+        
+        do{            
+        
+        var grade=prompt("Enter number grade from 0  through 100 \nor enter 999 to end entries");  
+            if(grade >0 && grade <=100){
+            
+            if(grade>=88 && grade <=100)
+                {
+                    alert("Number grade = "+grade+"\nFinal grade= A");
+                }
+
+            else if(grade>=80 && grade<=87)
+                {
+                    alert("Number garde = "+grade+"\nFinal grade = B");
+                }
+
+            else if(grade>=68 && grade<=79)
+                {
+                    alert("Number garde = "+grade+"\nFinal grade = c");
+                }
+
+            else if(grade>=60 && grade<=67)
+                {
+                    alert("Number garde = "+grade+"\nFinal grade = D");
+                }
+
+            else if(grade>0 && grade<60)
+                {
+                    alert("Number garde = "+grade+"\nFinal grade = F");
+                }
+            }
+                else{
+                   alert("Please Enter A Valid Input"); 
+                }
+
+        }
+        
+        while(grade!='999');
+        
+        
+        
+    </script>
+    </head>
+    <body>
+    <h1>  Conversion is Completed </h1>
+    </body>
+</html>
